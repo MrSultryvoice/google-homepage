@@ -1,144 +1,142 @@
-<style>
-            html {
-                margin: 0;
-                padding: 0;
-                height: 100%;
-            }
-            body {
-                margin: 0;
-                padding: 0;
-                height: 100%;
-                background-color: #fff;
-                font-size: small;
-                font-family: arial, sans-serif;
-            }
-            .content {
-                display: flex;
-                margin: auto;
-                max-width: 600px;
-                min-width: 300px;
-                padding-top: 200px;
-            }
-            .center{
-                padding-left: 85px;
-            }
-            .logo {
-                display: flex;
-                margin: auto;
-                padding-left: 150px;
-                padding-bottom: 20px;
-            }
-            .searchbar {
-                display: flex;
-                border: 1px solid #dfe1e5;
-                border-radius: 24px;
-                width: 600px;
-                height: 44px;
-                margin-top: 10px;
-            }
-            #searchform {
-                background-color: transparent;
-                border: none;
-                margin: 0;
-                margin-left: 17px;
-                margin-top: 11px;
-                display: flex;
-                padding: 0;
-                outline: none;
-                font-size: 16px;
-                width: 470px;
-            }
-            .searchbar:hover{
-                box-shadow: 2px 2px 2px 2px #E7E2E2;
-            }
-            .buttonbox {
-                display: flex;
-                margin: auto;
-                justify-content: center;
-                max-width: 400px;
-                height: 35px;
-                line-height: 45px;
-                padding-top: 35px;
-            }
-            .midbutton {
-                border: none;
-                border-radius: 3px;
-                background-color: #f1f1f1;
-            }
-            .midbutton:hover {
-                border: solid #cccccc 1px;
-                background-color: #f6f6f6;
-            }
-            #searchbutton {
-                margin-right: 5px;
-                width: 150px;
-                font-size: 14px;
-            }
-            #luckybutton {
-                margin-left:12px;
-                width: 150px;
-                font-size: 14px;
-            }
-            .toplinks {
-                padding-top: 20px;
-            }
-            .leftbox {
-                display: flex;
-                justify-content: flex-start;
-                float: left;
-                margin-left: 10px;
-            }
-            .rightbox {
-                display: flex;
-                justify-content: flex-end;
-                float: right;
-                margin-right: 10px;
-                width: 300px;
-            }
-            .leftlink {
-                margin-left: 8px;
-            }
-            .rightlink {
-                margin-right: 8px;
-                padding-top: 6px;
-            }
-            .footlink {
-                font-size: 14px;
-            }
-            .link {
-                color: black;
-                opacity: 0.75;
-                text-decoration: none;
-                padding-left: 5px;
-                padding-right: 5px;
-            }
-            .link:hover {
-                text-decoration: underline;
-            }
-            #appsbutton {
-                margin-left: 8px;
-                margin-right: 8px;
-            }
-            #signinbutton{
-                border: none;
-                width: 75px;
-                height: 30px;
-                color: white;
-                background-color: #6976FD;
-                margin-right: 8px;
-                font-weight: bold;
-                border-radius: 1px;
-            }
-            footer {
-                left: 0;
-                bottom: 0;
-                right: 0;
-                position: absolute;
-                background-color: #f2f2f2;
-                width: 100%;
-                border-top: 1px solid #d2d2d2;
-                padding-top: 15px;
-                padding-bottom: 15px;
-            }
 
-</style>
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #fff;
+    font-size: small;
+    font-family: arial, sans-serif;
+}
+.content {
+    display: flex;
+    margin: auto;
+    max-width: 600px;
+    min-width: 300px;
+    padding-top: 200px;
+}
+.center{
+    padding-left: 85px;
+}
+.logo {
+    display: flex;
+    margin: auto;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+.searchbar {
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 600px;
+    height: 44px;
+    margin-top: 10px;
+}
+#searchform {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    margin-left: 17px;
+    margin-top: 11px;
+    display: flex;
+    padding: 0;
+    outline: none;
+    font-size: 16px;
+    width: 470px;
+}
+.searchbar:hover{
+    box-shadow: 2px 2px 2px 2px #E7E2E2;
+}
+.buttonbox {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 400px;
+    height: 35px;
+    line-height: 45px;
+    padding-top: 35px;
+}
+.midbutton {
+    border: none;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+}
+.midbutton:hover {
+    border: solid #cccccc 1px;
+    background-color: #f6f6f6;
+}
+#searchbutton {
+    margin-right: 5px;
+    width: 150px;
+    font-size: 14px;
+}
+#luckybutton {
+    margin-left:12px;
+    width: 150px;
+    font-size: 14px;
+}
+.toplinks {
+    padding-top: 20px;
+}
+.leftbox {
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    margin-left: 10px;
+}
+.rightbox {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    margin-right: 10px;
+    width: 300px;
+}
+.leftlink {
+    margin-left: 8px;
+}
+.rightlink {
+    margin-right: 8px;
+    padding-top: 6px;
+}
+.footlink {
+    font-size: 14px;
+}
+.link {
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.link:hover {
+    text-decoration: underline;
+}
+#appsbutton {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#signinbutton{
+    border: none;
+    width: 75px;
+    height: 30px;
+    color: white;
+    background-color: #6976FD;
+    margin-right: 8px;
+    font-weight: bold;
+    border-radius: 1px;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top: 1px solid #d2d2d2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
